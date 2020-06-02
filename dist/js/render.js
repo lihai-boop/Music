@@ -1,0 +1,1 @@
+!function(e){var i=document.querySelector(".mark"),c=document.querySelector(".record img"),t=document.querySelectorAll(".songFoot i")[0],l=document.querySelector(".title").children;e.audio=function(e){var n,r,o;n=e.image,i.src=n,c.src=n,r=e,l[0].innerHTML=r.song,l[1].innerHTML=r.singer,l[2].innerHTML=r.album,o=e.isLike,t.className=o?"action":""}}(window.play||(window.play={}));
